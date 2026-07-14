@@ -1,0 +1,63 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1460516631837131271
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7119944937396013440}
+  - component: {fileID: 4558603580584212440}
+  m_Layer: 0
+  m_Name: "\u9ED1\u6697\u9F7F\u8F6E\u6280\u80FD"
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7119944937396013440
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1460516631837131271}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4558603580584212440
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1460516631837131271}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe8387d0bdf8777488d7593bac4b93d3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Skillname: "\u9ED1\u6697\u9F7F\u8F6E"
+  CDtime: 8
+  CDkey: 8
+  damage: 4
+  level: 1
+  lifetime: 7
+  pass: 4
+  speed: 2
+  number: 4
+  bullet: {fileID: 6161100791832740945, guid: bd77bf8752f634e4aa1e653c64046dab, type: 3}
+  size: 3
+  interval: 0.5
+  player: {fileID: 0}
+  angle: 0
+  "\u662F\u5426\u671D\u5411\u6700\u8FD1\u654C\u4EBA": 0
+  icon: {fileID: 21300000, guid: 9ee5931f37d7f9d46a41d2246528d5f7, type: 3}
+  "\u73AF\u7ED5\u534A\u5F84": 5
